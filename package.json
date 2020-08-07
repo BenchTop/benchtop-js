@@ -2,8 +2,12 @@
   "name": "benchtop",
   "version": "1.0.0",
   "description": "JS/TS library for benchmarking code",
-  "main": "index.js",
+  "main": "dist/benchtop.cjs.js",
+  "module": "dist/benchtop.esm.js",
+  "browser": "dist/benchtop.umd.js",
+  "types": "dist/main.d.ts",
   "scripts": {
+    "build": "rollup --config",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/benchtop/benchtop-js/issues"
   },
-  "homepage": "https://github.com/benchtop/benchtop-js#readme"
+  "homepage": "https://github.com/benchtop/benchtop-js#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "rollup": "^2.23.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "tslib": "^2.0.1"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7"
+  }
 }
