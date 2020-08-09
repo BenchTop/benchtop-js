@@ -6,6 +6,7 @@
   "module": "dist/benchtop.esm.js",
   "browser": "dist/benchtop.umd.js",
   "types": "dist/main.d.ts",
+  "files": ["dist/"],
   "scripts": {
     "build": "rollup --config",
     "test": "jest"

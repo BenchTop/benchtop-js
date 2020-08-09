@@ -10,7 +10,7 @@ export default [
 		input: 'src/main.ts',
 		external: ['perf_hooks'],
 		output: {
-			name: 'howLongUntilLunch',
+			name: 'benchtop',
 			file: pkg.browser,
 			format: 'umd'
 		},
