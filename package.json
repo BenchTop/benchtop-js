@@ -1,6 +1,6 @@
 {
   "name": "benchtop",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "JS/TS library for benchmarking code",
   "main": "dist/benchtop.cjs.js",
   "module": "dist/benchtop.esm.js",
