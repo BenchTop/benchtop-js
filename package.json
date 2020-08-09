@@ -1,12 +1,14 @@
 {
   "name": "benchtop",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JS/TS library for benchmarking code",
   "main": "dist/benchtop.cjs.js",
   "module": "dist/benchtop.esm.js",
   "browser": "dist/benchtop.umd.js",
   "types": "dist/main.d.ts",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "rollup --config",
     "test": "jest"
