@@ -30,7 +30,7 @@
   "homepage": "https://github.com/benchtop/benchtop-js#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
-    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^5.0.2",
     "@types/jest": "^26.0.9",
     "jest": "^26.2.2",
